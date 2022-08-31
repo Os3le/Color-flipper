@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+
+h4 {
+    color: rgb(77, 141, 141);
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+h2 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    background-color: wheat;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.color {
+    color: rgb(88, 195, 195);
+}
+
+.btn-btn-hero {
+    background-color: rgb(147, 144, 139);
+    border: 2px solid black;
+    justify-self: center;
+    justify-items: center;
+    display: flex;
+    margin: auto;
+}
